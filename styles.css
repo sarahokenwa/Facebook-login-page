@@ -10,7 +10,7 @@ body{
     overflow: hidden;
 }
 header{
-    min-height: 70px;
+    min-height: 5px;
     color: #ffffff;
     background: slateblue;
     padding-top: 30px;
@@ -52,7 +52,7 @@ header form input[type="text"]
  margin-bottom:3px;
  width:150px;
  border:1px solid #08298A;
- height:25px;
+ height:20px;
  padding-left:3px;
 }
 header form input[type="password"]
@@ -61,12 +61,12 @@ header form input[type="password"]
  margin-bottom:3px;
  width:150px;
  border:1px solid #08298A;
- height:25px;
+ height:20px;
  padding-left:3px;
 }
 header form input[type="submit"]
 {
- height:25px;
+ height:20px;
  margin-top:20px;
  background-color:#084B8A;
  color:white;
