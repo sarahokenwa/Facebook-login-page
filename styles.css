@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: gainsboro;
+    background: rgb(221, 223, 226);
     padding: 0;
     margin: 0;
 }
@@ -12,7 +12,7 @@ body{
 header{
     min-height: 5px;
     color: #ffffff;
-    background: slateblue;
+    background: rgb(59, 89, 152);
     padding-top: 30px;
 
 }
@@ -126,17 +126,17 @@ aside#sidebar{
 }
 #sidebar #div1 li #firstname
 {
- width:49%;
+ width:50%;
 }
 #sidebar #div1 li #Surname
 {
  
- width:100%;
+ width:50%;
 
 }
 #sidebar #div1 li input[type="text"]
 {
- width:100%;
+ width:49%;
  height:40px;
  border-radius:5px;
  padding-left:10px;
@@ -152,6 +152,16 @@ aside#sidebar{
  font-size:18px;
  border:1px solid #BDBDBD;
 }
+#sidebar #div1 li input[type="email"]
+{
+ width:100%;
+ height:40px;
+ border-radius:5px;
+ padding-left:10px;
+ font-size:18px;
+ border:1px solid #BDBDBD;
+}
+
 #sidebar #div1 li select
 {
  padding:4px;
