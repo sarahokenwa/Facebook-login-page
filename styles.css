@@ -226,10 +226,74 @@ aside#sidebar{
  color:#424242;
  font-size:13px;
  font-weight:bold;
+ padding-bottom: 50px;
 }
 #sidebar #div1 #create_page a
 {
  display:inline;
  margin:0px;
  font-size:13px;
+}
+#footer{
+    width:100%;
+    float: right;
+    text-align:center;
+    color: black; 
+    background: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px auto;
+    min-height: 50px;
+    
+    
+}
+#footer1
+{
+ width:100%;
+ margin:0px auto;
+ padding:0px;
+ border-bottom:1px solid #E6E6E6;
+ height:30px;
+ line-height:30px;
+ 
+ font-size:12px;
+ color:#848484;
+ 
+}
+#footer1 a
+{
+ color:#365899;
+ display:inline;
+ margin-left:10px;
+ text-decoration:none;
+}
+#footer1 a:hover
+{
+ text-decoration:underline;
+}
+#footer1 hr{
+    border: 0px;
+    width:100%;
+    color: 1px solid #e6e6e6;
+}
+#footer2
+{
+ width:980px;
+ margin:0px auto;
+ padding:0px;
+ font-size:12px;
+ color:#848484;
+}
+#footer2 a
+{
+ color:#365899;
+ display:inline-block;
+ margin:5px;
+ margin-left:0px;
+ min-width:80px;
+ text-decoration:none;
+}
+#footer2 a:hover
+{
+ text-decoration:underline;
 }
